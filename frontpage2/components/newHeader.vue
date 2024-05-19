@@ -8,7 +8,7 @@
         Weather: <span class="weather">{{ temperature }}</span
         >°F
       </p>
-      <p>Current time: {{ timestamp }}</p>
+      <p>Current time : {{ timestamp }}</p>
     </div>
 
     <!-- Center Section: Newspaper Name -->
