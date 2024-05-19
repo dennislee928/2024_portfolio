@@ -43,5 +43,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUD_FLARE_DEPLOY_API_TOKEN }}
           accountId: ${{ secrets.CLOUD_FLARE_DEPLOY_ACCOUNT_ID }}
-          command: pages deploy ./frontpage2/dist --project-name=2024portfolio --commit-dirty=true
+          command: pages deploy ./frontpage2/dist --project-name=2024-portfolio --commit-dirty=true
           quiet: false
