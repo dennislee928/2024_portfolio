@@ -72,7 +72,7 @@
             <p>Changing the World with AR Is Not a Dream.</p>
           </div>
           <div class="edu-image">
-            <img src="../assets/edu.PNG" alt="Edu Image" />
+            <img src="../assets/edu.png" alt="Edu Image" />
           </div>
           <div class="edu-text">
             <NuxtLink
