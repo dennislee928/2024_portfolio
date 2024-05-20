@@ -94,32 +94,33 @@
   font-family: "Old Newspaper Types", serif;
   margin: 5px;
   width: 100%;
-  height: auto; /* adjusted to auto for flexible content size */
+  height: auto;
 }
 
-.project2-3,
-.projects-container,
-.project-section,
-.left-side,
-.center-side,
-.right-side,
-.nft-section,
-.project-image,
-.project-text,
-.nft-image,
-.nft-text,
-.meta-image,
-.meta-text,
-.edu-image,
-.edu-text {
+.project2-3 {
+  /* Changed to column for consistency */
+  width: 100%;
+}
+
+.projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Align all sections in a column */
   margin: 5px;
 }
 
 .title {
   font-size: max(2vw, 18px);
-  margin-bottom: 10px; /* added space between title and content */
+  margin-bottom: 10px;
+}
+
+/* Align sections side by side using flex */
+.left-side,
+.center-side,
+.right-side {
+  display: flex;
+  flex-direction: column; /* Maintain column layout across all screens */
+  width: 100%; /* Use full width for each section */
+  margin: 10px;
 }
 
 .project-image,
@@ -127,7 +128,7 @@
 .meta-image,
 .edu-image {
   width: 100%;
-  padding-top: 100%; /* Keeps aspect ratio 1:1 */
+  padding-top: 56.25%; /* Adjust to aspect ratio of 16:9 */
   position: relative;
 }
 
@@ -138,9 +139,20 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}-fit: cover; /* 裁剪並填滿 div 而不失真 */
 }
 
+.project-text,
+.nft-text,
+.meta-text,
+.edu-text {
+  margin: 5px;
+}
+
+/* Adjust text styles for readability */
+.herf {
+  text-decoration: underline;
+  font-size: 1.2rem; /* Larger font size for readability */
+}
 /* 手機裝置的 CSS 媒體查詢 */
 @media (max-width: 768px) {
   .left-side {
