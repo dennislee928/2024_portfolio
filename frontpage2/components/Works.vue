@@ -29,7 +29,7 @@
             <div class="nft-text">
               <!-- NFT Text -->
               <p class="nft-info-text">
-                First student to create dynamic
+                First student creates dynamic
                 <NuxtLink to="https://akaswap.com/akaobj/12650">
                   <p class="herf">NFT</p>
                 </NuxtLink>
@@ -156,7 +156,7 @@ img {
 /* 手機裝置的 CSS 媒體查詢 */
 @media (max-width: 768px) {
   .left-side {
-    width: 30%;
+    width: 25%;
   }
   .project2-3 {
     flex-direction: column;
@@ -166,7 +166,7 @@ img {
     width: 30%;
   }
   .right-side {
-    width: 30%;
+    width: 28%;
   }
   .title {
     font-size: 5vw; /* 增加字體大小使其在手機上更易於閱讀 */
@@ -180,7 +180,7 @@ img {
 
   .nft-image {
     height: 100%;
-    width: 115%;
+    width: 100%;
   }
   .nft-text {
     font-size: xx-small;
@@ -192,6 +192,7 @@ img {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-columns: 0.5fr 2fr;
+    margin-bottom: 10px;
   }
   .nft-info-text {
     width: auto;
