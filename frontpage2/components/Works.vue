@@ -93,70 +93,52 @@
   display: flex;
   font-family: "Old Newspaper Types", serif;
   margin: 5px;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: auto; /* adjusted to auto for flexible content size */
 }
 
-.left-side,
-.project2-3 {
-  margin: 5px;
-}
-
-.project1-image,
-.project1-text,
-.easte-egg {
-  margin: 5px;
-}
-
-.title {
-  font-size: max(2vw, 18px);
-  margin: 5px;
-}
-
+.project2-3,
 .projects-container,
+.project-section,
 .left-side,
 .center-side,
-.right-side {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-}
-
+.right-side,
+.nft-section,
 .project-image,
 .project-text,
-.nft-section,
 .nft-image,
 .nft-text,
 .meta-image,
 .meta-text,
 .edu-image,
 .edu-text {
+  display: flex;
+  flex-direction: column;
   margin: 5px;
 }
 
-/* 調整所有包含圖片的 div，使其長寬保持 1:1 並裁剪圖片 */
-.project1-image,
+.title {
+  font-size: max(2vw, 18px);
+  margin-bottom: 10px; /* added space between title and content */
+}
+
 .project-image,
 .nft-image,
 .meta-image,
 .edu-image {
-  width: 100%; /* 或設定為特定寬度，例如 width: 25vw; */
-  height: 0; /* 初始設為 0 */
-  padding-top: 100%; /* 高度等於自身寬度，形成正方形 */
-  position: relative; /* 定位相對於包含元素 */
+  width: 100%;
+  padding-top: 100%; /* Keeps aspect ratio 1:1 */
+  position: relative;
 }
 
-.project1-image img,
-.project-image img,
-.nft-image img,
-.meta-image img,
-.edu-image img {
+img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 裁剪並填滿 div 而不失真 */
+  object-fit: cover;
+}-fit: cover; /* 裁剪並填滿 div 而不失真 */
 }
 
 /* 手機裝置的 CSS 媒體查詢 */
