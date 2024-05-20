@@ -22,6 +22,17 @@
                 possible in 2023?
               </p>
             </NuxtLink>
+            <div class="warrant">
+              <p>See this man?</p>
+              <NuxtLink to="./warrant">
+                <p class="contact">Contat us immediately!</p>
+              </NuxtLink>
+              <p>to get your rewards!</p>
+
+              <p>Crimes:</p>
+
+              <p>Unauthorized Time Travel: Serilously.</p>
+            </div>
           </div>
         </div>
         <div class="center-side">
@@ -152,6 +163,22 @@ img {
 .herf {
   text-decoration: underline;
   font-size: 1.2rem; /* Larger font size for readability */
+}
+.warrant {
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Old Newspaper Types", serif;
+  font-size: xx-small;
+  /**/
+  margin: 0;
+  margin-right: 0px;
+  margin-top: 5px;
+  top: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact {
+  text-decoration: underline;
 }
 /* 手機裝置的 CSS 媒體查詢 */
 @media (max-width: 768px) {
