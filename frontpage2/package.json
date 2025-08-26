@@ -12,13 +12,13 @@
   "dependencies": {
     "@luxdamore/nuxt-canvas-sketch": "^1.8.7",
     "@nuxt/components": "^2.2.1",
-    "@nuxtjs/i18n": "^8.5.6",
+    "@nuxtjs/i18n": "^8.3.1",
     "emailjs-com": "^3.2.0",
     "nuxt": "^3.11.2",
     "p5vue": "^0.0.7",
-    "three": "^0.179.1",
-    "vue": "^3.4.21",
-    "vue-router": "^4.5.1",
+    "three": "^0.164.1",
+    "vue": "^3.5.16",
+    "vue-router": "^4.3.0",
     "vue3-highlightjs": "^1.0.5"
   },
   "devDependencies": {
