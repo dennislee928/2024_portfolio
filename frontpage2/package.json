@@ -12,7 +12,7 @@
   "dependencies": {
     "@luxdamore/nuxt-canvas-sketch": "^1.8.7",
     "@nuxt/components": "^2.2.1",
-    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxtjs/i18n": "^8.5.6",
     "emailjs-com": "^3.2.0",
     "nuxt": "^3.12.0",
     "p5vue": "^0.0.7",
