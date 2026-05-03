@@ -16,9 +16,9 @@
     "emailjs-com": "^3.2.0",
     "nuxt": "^3.20.2",
     "p5vue": "^0.0.7",
-    "three": "^0.182.0",
-    "vue": "^3.5.18",
-    "vue-router": "^4.6.4",
+    "three": "^0.179.1",
+    "vue": "^3.5.26",
+    "vue-router": "^4.3.0",
     "vue3-highlightjs": "^1.0.5"
   },
   "devDependencies": {
