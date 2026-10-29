@@ -62,6 +62,7 @@
     "@intlify/core": "^11.4.14",
     "@nuxt/nitro-server": "^3.21.6",
     "unhead": "^2.1.13",
-    "nitropack": "^2.13.4"
+    "nitropack": "^2.13.4",
+    "postcss-selector-parser": "^7.1.6"
   }
 }
