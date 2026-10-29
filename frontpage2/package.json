@@ -50,6 +50,7 @@
     "svgo": "^4.1.0",
     "@intlify/shared": "^9.14.2",
     "browserslist": "^4.28.7",
-    "picomatch": "^4.0.4"
+    "picomatch": "^4.0.4",
+    "vue-i18n": "^11.4.14"
   }
 }
