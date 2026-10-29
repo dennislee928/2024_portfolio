@@ -69,6 +69,7 @@
     "yaml": "^2.8.3",
     "@babel/core": "^7.29.6",
     "esbuild": "^0.28.1",
-    "min-document": "^2.19.1"
+    "min-document": "^2.19.1",
+    "serialize-javascript": "^7.1.3"
   }
 }
