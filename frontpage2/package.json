@@ -54,6 +54,7 @@
     "vue-i18n": "^11.4.14",
     "ws": "^8.21.0",
     "@vue/server-renderer": "^3.5.42",
-    "cross-spawn": "^7.0.5"
+    "cross-spawn": "^7.0.5",
+    "glob": "^10.5.0"
   }
 }
