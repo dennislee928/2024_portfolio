@@ -38,6 +38,7 @@
     "vite": "^7.3.7",
     "brace-expansion": "^2.1.7",
     "js-yaml": "^4.3.2",
-    "node-forge": "^1.4.0"
+    "node-forge": "^1.4.0",
+    "@intlify/core-base": "^11.4.14"
   }
 }
