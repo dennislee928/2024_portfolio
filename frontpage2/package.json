@@ -33,6 +33,7 @@
     "koa": "^2.16.4",
     "shell-quote": "^1.9.0",
     "@nuxt/devtools": "^3.3.1",
-    "@simple-git/argv-parser": "^2.0.1"
+    "@simple-git/argv-parser": "^2.0.1",
+    "devalue": "^5.9.3"
   }
 }
