@@ -59,6 +59,7 @@
     "path-to-regexp": "^6.3.0",
     "rollup": "^4.59.0",
     "source-map-js": "^1.2.2",
-    "@intlify/core": "^11.4.14"
+    "@intlify/core": "^11.4.14",
+    "@nuxt/nitro-server": "^3.21.6"
   }
 }
